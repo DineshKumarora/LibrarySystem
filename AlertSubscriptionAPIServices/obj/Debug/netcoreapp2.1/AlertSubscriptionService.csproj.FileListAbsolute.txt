@@ -1,0 +1,12 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\bin\Debug\netcoreapp2.1\AlertSubscriptionService.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\bin\Debug\netcoreapp2.1\AlertSubscriptionService.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\bin\Debug\netcoreapp2.1\AlertSubscriptionService.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\bin\Debug\netcoreapp2.1\AlertSubscriptionService.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\bin\Debug\netcoreapp2.1\AlertSubscriptionService.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\bin\Debug\netcoreapp2.1\AlertSubscriptionService.xml
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\obj\Debug\netcoreapp2.1\AlertSubscriptionService.csprojAssemblyReference.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\obj\Debug\netcoreapp2.1\AlertSubscriptionService.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\obj\Debug\netcoreapp2.1\AlertSubscriptionService.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\obj\Debug\netcoreapp2.1\AlertSubscriptionService.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\obj\Debug\netcoreapp2.1\AlertSubscriptionService.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AlertSubscriptionAPIServices\obj\Debug\netcoreapp2.1\AlertSubscriptionService.pdb
