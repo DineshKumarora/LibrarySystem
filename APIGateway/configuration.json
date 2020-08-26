@@ -1,0 +1,307 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62795, //9001,
+      "UpstreamPathTemplate": "/Books",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "BooksAPIServices",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000 //This value specifies that a request will automatically be timed out if it takes more than this value. The unit of this value is milliseconds as well.
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Books/{id}",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62795, //9001,
+      "UpstreamPathTemplate": "/Books/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "BooksAPIServices",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Books/{id}",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62795, //9001,
+      "UpstreamPathTemplate": "/Books/{id}",
+      "UpstreamHttpMethod": [ "Put" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "BooksAPIServices",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Subscription",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62797, //9003,
+      "UpstreamPathTemplate": "/Subscription",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "SubscriptionAPIService",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Subscription/{subscriberName}",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62797, //9003
+      "UpstreamPathTemplate": "/Subscription/{subscriberName}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "SubscriptionAPIService",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Subscription",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62797, //9003,
+      "UpstreamPathTemplate": "/Subscription",
+      "UpstreamHttpMethod": [ "Post" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "SubscriptionAPIService",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      },
+      "AddHeadersToRequest": {},
+      "UpstreamHeaderTransform": {},
+      "DownstreamHeaderTransform": {},
+      "AddClaimsToRequest": {},
+      "RouteClaimsRequirement": {},
+      "AddQueriesToRequest": {},
+      "ReRouteIsCaseSensitive": false
+    },
+    {
+      "DownstreamPathTemplate": "/api/AlertSubscription/{bookId}",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62804, //9005,
+      "UpstreamPathTemplate": "/AlertSubscription",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "AlertSubscriptionService",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/AlertSubscription",
+      "DownstreamScheme": "http",
+      //"DownstreamHost": "localhost",
+      //"DownstreamPort": 62804, //9005,
+      "UpstreamPathTemplate": "/AlertSubscription",
+      "UpstreamHttpMethod": [ "Post" ],
+      "LoadBalancer": "RoundRobin",
+      "UseServiceDiscovery": true,
+      "ServiceName": "AlertSubscriptionService",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 5000,
+        "TimeoutValue": 2000
+      }
+    },
+    //{
+    //  "DownstreamPathTemplate": "/api/Customer",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHost": "localhost",
+    //  "DownstreamPort": 62799, //9005,
+    //  "UpstreamPathTemplate": "/Customer",
+    //  "UpstreamHttpMethod": [ "Get" ],
+    //  //"LoadBalancer": "RoundRobin",
+    //  //"UseServiceDiscovery": true,
+    //  //"ServiceName": "AlertSubscriptionService",
+    //  //"AuthenticationOptions": {
+    //  //  "AuthenticationProviderKey": "TestKey",
+    //  //  "AllowedScopes": []
+    //  //},
+    //  "RateLimitOptions": {
+    //    "ClientWhitelist": [],
+    //    "EnableRateLimiting": true,
+    //    "Period": "1s",
+    //    "PeriodTimespan": 1,
+    //    "Limit": 1
+    //  },
+    //  "QoSOptions": {
+    //    "ExceptionsAllowedBeforeBreaking": 2,
+    //    "DurationOfBreak": 5000,
+    //    "TimeoutValue": 2000
+    //  }
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/api/Customer/{customerName}",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHost": "localhost",
+    //  "DownstreamPort": 62799, //9005,
+    //  "UpstreamPathTemplate": "/Customer",
+    //  "UpstreamHttpMethod": [ "Get" ],
+    //  //"LoadBalancer": "RoundRobin",
+    //  //"UseServiceDiscovery": true,
+    //  //"ServiceName": "AlertSubscriptionService",
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "TestKey",
+    //    "AllowedScopes": []
+    //  },
+    //  "RateLimitOptions": {
+    //    "ClientWhitelist": [],
+    //    "EnableRateLimiting": true,
+    //    "Period": "1s",
+    //    "PeriodTimespan": 1,
+    //    "Limit": 1
+    //  },
+    //  "QoSOptions": {
+    //    "ExceptionsAllowedBeforeBreaking": 2,
+    //    "DurationOfBreak": 5000,
+    //    "TimeoutValue": 2000
+    //  }
+    //},
+    {
+      "DownstreamPathTemplate": "/api/Customer",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 62799, //9004,
+      "UpstreamPathTemplate": "/api/Customer",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 62802, //9009,
+      "UpstreamPathTemplate": "/api/auth",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration",
+    "ServiceDiscoveryProvider": { "Type": "Eureka" },  //Service Discovery
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": false,
+      "QuotaExceededMessage": "Customize Tips!",
+      "HttpStatusCode": 999
+    }
+  }
+}
