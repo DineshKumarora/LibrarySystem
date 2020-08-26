@@ -1,0 +1,10 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\bin\Release\netcoreapp2.1\APIGateway.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\bin\Release\netcoreapp2.1\APIGateway.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\bin\Release\netcoreapp2.1\APIGateway.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\bin\Release\netcoreapp2.1\APIGateway.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\bin\Release\netcoreapp2.1\APIGateway.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\obj\Release\netcoreapp2.1\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\obj\Release\netcoreapp2.1\APIGateway.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\obj\Release\netcoreapp2.1\APIGateway.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\obj\Release\netcoreapp2.1\APIGateway.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway\obj\Release\netcoreapp2.1\APIGateway.pdb

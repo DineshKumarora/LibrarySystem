@@ -1,0 +1,5 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway
+--output-path=obj\Release\netcoreapp2.1\
+--application-name=APIGateway
+--content-root=C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\APIGateway
+--file=
