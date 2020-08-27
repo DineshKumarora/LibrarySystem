@@ -1,0 +1,12 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\bin\Debug\netcoreapp2.1\BooksAPIServices.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\bin\Debug\netcoreapp2.1\BooksAPIServices.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\bin\Debug\netcoreapp2.1\BooksAPIServices.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\bin\Debug\netcoreapp2.1\BooksAPIServices.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\bin\Debug\netcoreapp2.1\BooksAPIServices.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\bin\Debug\netcoreapp2.1\BooksAPIServices.xml
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\obj\Debug\netcoreapp2.1\BooksAPIServices.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\obj\Debug\netcoreapp2.1\BooksAPIServices.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\obj\Debug\netcoreapp2.1\BooksAPIServices.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\obj\Debug\netcoreapp2.1\BooksAPIServices.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\obj\Debug\netcoreapp2.1\BooksAPIServices.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\BooksAPIServices\obj\Debug\netcoreapp2.1\BooksAPIServices.csprojAssemblyReference.cache
