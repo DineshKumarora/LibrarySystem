@@ -1,0 +1,12 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\bin\Debug\netcoreapp2.1\SubscriptionAPIService.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\bin\Debug\netcoreapp2.1\SubscriptionAPIService.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\bin\Debug\netcoreapp2.1\SubscriptionAPIService.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\bin\Debug\netcoreapp2.1\SubscriptionAPIService.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\bin\Debug\netcoreapp2.1\SubscriptionAPIService.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\bin\Debug\netcoreapp2.1\SubscriptionAPIService.xml
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\obj\Debug\netcoreapp2.1\SubscriptionAPIService.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\obj\Debug\netcoreapp2.1\SubscriptionAPIService.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\obj\Debug\netcoreapp2.1\SubscriptionAPIService.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\obj\Debug\netcoreapp2.1\SubscriptionAPIService.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\obj\Debug\netcoreapp2.1\SubscriptionAPIService.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\SubscriptionAPIServices\obj\Debug\netcoreapp2.1\SubscriptionAPIService.csprojAssemblyReference.cache
