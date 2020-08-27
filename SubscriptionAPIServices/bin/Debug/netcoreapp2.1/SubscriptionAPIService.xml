@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SubscriptionAPIService</name>
+    </assembly>
+    <members>
+        <member name="T:SubscriptionAPIService.Controllers.SubscriptionController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.#ctor(SubscriptionAPIService.Models.SubscriptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.GetSubscriptionLists">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.GetSubscriptions(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="subscriberName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.PostSubscriptions(SubscriptionAPIService.Models.Subscription)">
+            <summary>
+            
+            </summary>
+            <param name="subscription"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.SubscriptionExists(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="subscriberName"></param>
+            <param name="bookId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.HealthCheck">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SubscriptionAPIService.Controllers.SubscriptionController.Info">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriptionAPIService.Models.Books">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Books.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Books.bookName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Books.author">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Books.copiesAvailable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Books.totalCopies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SubscriptionAPIService.Models.Subscription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Subscription.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Subscription.SubscriberName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Subscription.SubscriptionDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Subscription.ReturnedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Subscription.BookId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.Subscription.Notify">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SubscriptionAPIService.Models.SubscriptionContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SubscriptionAPIService.Models.SubscriptionContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SubscriptionAPIService.Models.SubscriptionContext})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="M:SubscriptionAPIService.Models.SubscriptionContext.LoadSubscription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SubscriptionAPIService.Models.SubscriptionContext.SubscriptionList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SubscriptionAPIService.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SubscriptionAPIService.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:SubscriptionAPIService.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriptionAPIService.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SubscriptionAPIService.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:SubscriptionAPIService.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SubscriptionAPIService.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:SubscriptionAPIService.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:CustomerAPIService.Models.Customer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CustomerAPIService.Models.Customer.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CustomerAPIService.Models.Customer.SubscriberName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CustomerAPIService.Models.Customer.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CustomerAPIService.Models.Customer.Email">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
