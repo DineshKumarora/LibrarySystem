@@ -1,0 +1,194 @@
+2020-08-24 16:29:24.7886||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\e1072225\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-08-24 16:29:31.8234||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-08-24 16:29:42.3116||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/   
+2020-08-24 16:29:42.7866||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:62793/  0 
+2020-08-24 16:29:43.7763||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 978.6212ms 200  
+2020-08-24 16:29:45.5501||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 16:29:45.5778||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:29:45.6260||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3332.4919ms 404  
+2020-08-24 16:30:30.9359||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 16:30:33.7669||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 16:30:38.5907||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4823.7287ms 200  
+2020-08-24 16:30:39.5806||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8644.7189ms 200 application/json; charset=utf-8 
+2020-08-24 16:30:40.4354||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 44 
+2020-08-24 16:30:40.6074||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:30:40.6527||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:30:40.7692||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:30:42.9997||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:30:43.0398||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2604.4314ms 503  
+2020-08-24 16:30:43.8900||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B4232 application/json; charset=utf-8 5 
+2020-08-24 16:30:43.9071||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:30:43.9252||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:30:43.9517||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:30:46.1835||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:30:46.2353||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2345.2758ms 503  
+2020-08-24 16:32:39.0301||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 16:32:39.4311||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 16:32:39.8279||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 396.8325ms 200  
+2020-08-24 16:32:40.0132||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 983.0956ms 200 application/json; charset=utf-8 
+2020-08-24 16:32:41.0945||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 44 
+2020-08-24 16:32:41.1953||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:32:41.2528||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:32:41.3162||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:32:42.2104||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B4232 application/json; charset=utf-8 5 
+2020-08-24 16:32:42.2238||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:32:42.2386||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:32:42.2593||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:32:42.8224||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 612.0284ms 200 application/json; charset=utf-8 
+2020-08-24 16:32:47.0951||ERROR|Ocelot.Requester.QoS.PollyQoSProvider|.Breaker logging: Breaking the circuit for 5000ms! : OcelotRequestId - not set 
+2020-08-24 16:32:47.1236||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:32:47.1407||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6046.1671ms 503  
+2020-08-24 16:33:00.7271||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/AlertSubscription/B4232   
+2020-08-24 16:33:00.7397||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:33:00.7397||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:33:00.7616||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 16:33:00.7616||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:33:00.7784||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 51.3135ms 404  
+2020-08-24 16:36:00.4852||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\e1072225\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-08-24 16:36:05.4917||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-08-24 16:36:12.8462||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:62793/  0 
+2020-08-24 16:36:12.8462||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/   
+2020-08-24 16:36:14.7219||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1789.8718ms 200  
+2020-08-24 16:36:16.7330||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 16:36:16.7959||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:36:16.8544||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4044.6544ms 404  
+2020-08-24 16:37:02.8852||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Diensh&pwd=Dinesh   
+2020-08-24 16:37:13.5028||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Diensh&pwd=Dinesh   
+2020-08-24 16:37:16.0001||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2496.9652ms 404  
+2020-08-24 16:37:16.5526||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13665.8823ms 200 application/json; charset=utf-8 
+2020-08-24 16:38:19.1172||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 16:38:19.5302||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 16:38:20.0219||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 491.6656ms 200  
+2020-08-24 16:38:20.3846||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1267.3099ms 200 application/json; charset=utf-8 
+2020-08-24 16:38:21.3689||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 44 
+2020-08-24 16:38:21.5345||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:38:21.5905||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:38:21.7547||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:38:23.8965||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:38:23.9384||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2569.1985ms 503  
+2020-08-24 16:38:24.6445||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 16:38:24.6547||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:38:24.6624||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:38:24.6840||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:38:26.9677||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:38:26.9817||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2336.8971ms 503  
+2020-08-24 16:39:42.6869||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/Customer/John   
+2020-08-24 16:39:42.7064||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:39:42.7484||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:39:42.8764||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 16:39:42.9240||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:39:42.9901||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 303.1471ms 404  
+2020-08-24 16:41:54.1382||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\e1072225\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-08-24 16:41:56.7434||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-08-24 16:42:03.1763||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:62793/  0 
+2020-08-24 16:42:03.1763||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/   
+2020-08-24 16:42:04.0484||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 937.6572ms 200  
+2020-08-24 16:42:06.7921||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 16:42:06.8303||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:42:06.8592||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3760.6998ms 404  
+2020-08-24 16:46:57.7795||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 16:47:01.4174||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 16:47:05.4791||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4061.7262ms 200  
+2020-08-24 16:47:07.1549||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9375.4244ms 200 application/json; charset=utf-8 
+2020-08-24 16:47:09.7243||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 63 
+2020-08-24 16:47:09.9341||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 16:47:09.9535||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:47:10.0687||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 16:47:12.5416||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:47:12.5793||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2855.0622ms 503  
+2020-08-24 16:55:29.6037||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\e1072225\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-08-24 16:55:34.9648||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-08-24 16:55:44.5338||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/   
+2020-08-24 16:55:44.5338||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:62793/  0 
+2020-08-24 16:55:46.0451||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1515.6739ms 200  
+2020-08-24 16:55:48.3187||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 16:55:48.4910||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 16:55:48.6434||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4125.6435ms 404  
+2020-08-24 17:01:08.5654||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 17:01:11.8309||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 17:01:14.9598||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3128.957ms 200  
+2020-08-24 17:01:16.3459||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7780.5629ms 200 application/json; charset=utf-8 
+2020-08-24 17:01:17.5538||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 63 
+2020-08-24 17:01:17.8050||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:01:17.8386||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:01:17.9389||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:01:20.1096||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:01:20.1659||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2611.9814ms 503  
+2020-08-24 17:02:55.9830||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 17:02:56.3800||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 17:02:57.4022||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1022.3144ms 200  
+2020-08-24 17:02:57.7149||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1731.947ms 200 application/json; charset=utf-8 
+2020-08-24 17:02:58.9969||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 61 
+2020-08-24 17:02:59.0134||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:02:59.0247||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:02:59.0516||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:03:07.1273||ERROR|Ocelot.Requester.QoS.PollyQoSProvider|.Breaker logging: Breaking the circuit for 5000ms! : OcelotRequestId - not set 
+2020-08-24 17:03:07.1958||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:03:07.2196||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8222.7066ms 503  
+2020-08-24 17:03:08.1082||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 17:03:08.1819||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:03:08.2206||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:03:08.2474||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:03:10.5771||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:03:10.5990||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2490.8464ms 503  
+2020-08-24 17:04:31.6102||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 17:04:32.0823||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 17:04:32.6856||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 603.3091ms 200  
+2020-08-24 17:04:32.9809||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1370.6951ms 200 application/json; charset=utf-8 
+2020-08-24 17:04:34.6821||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 61 
+2020-08-24 17:04:34.7063||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:04:34.7349||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:04:34.7770||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:04:37.4660||ERROR|Ocelot.Requester.QoS.PollyQoSProvider|.Breaker logging: Breaking the circuit for 5000ms! : OcelotRequestId - not set 
+2020-08-24 17:04:37.6553||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:04:37.6926||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3010.5399ms 503  
+2020-08-24 17:04:37.7311||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 17:04:37.7471||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:04:37.8123||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:04:37.8909||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:04:39.8824||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2151.2573ms 400  
+2020-08-24 17:05:21.4656||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 17:05:21.4835||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:05:21.5007||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:05:21.5624||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:05:22.1544||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 688.8108ms 400  
+2020-08-24 17:06:03.7145||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 17:06:03.7442||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:06:03.7442||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:06:03.8108||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:06:04.0813||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 366.8333ms 400  
+2020-08-24 17:06:17.1553||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 17:06:17.1684||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:06:17.2060||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:06:17.2414||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:06:18.9249||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1769.6264ms 400  
+2020-08-24 17:09:36.5997||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\e1072225\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-08-24 17:09:38.3300||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-08-24 17:09:40.7611||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/   
+2020-08-24 17:09:40.7611||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:62793/  0 
+2020-08-24 17:09:41.2782||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 524.6209ms 200  
+2020-08-24 17:09:42.7661||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 17:09:42.8224||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:09:42.8791||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2134.7257ms 404  
+2020-08-24 17:15:21.9114||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/auth?name=Dinesh&pwd=Dinesh   
+2020-08-24 17:15:26.3281||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/api/Customer?subscriberName=Dinesh&pwd=Dinesh   
+2020-08-24 17:15:30.2337||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3905.5155ms 200  
+2020-08-24 17:15:32.4625||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10551.116ms 200 application/json; charset=utf-8 
+2020-08-24 17:15:35.5652||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:62793/Subscription application/json 61 
+2020-08-24 17:15:35.8191||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:15:35.8774||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:15:36.0305||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:15:38.3431||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:15:38.4246||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2859.4278ms 503  
+2020-08-24 17:15:45.8253||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:62793/Books/B1212 application/json; charset=utf-8 5 
+2020-08-24 17:15:45.8352||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:15:45.8540||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:15:45.8749||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:15:48.5278||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:15:48.6257||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2800.4482ms 503  
+2020-08-24 17:16:52.6228||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:62793/Customer/John   
+2020-08-24 17:16:52.6427||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-24 17:16:52.6583||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-08-24 17:16:52.8066||ERROR|Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware|DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: UnableToFindDownstreamRouteError : OcelotRequestId - not set 
+2020-08-24 17:16:52.8440||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-08-24 17:16:52.8869||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 264.0861ms 404  

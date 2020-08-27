@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIGateway</name>
+    </assembly>
+    <members>
+        <member name="T:APIGateway.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:APIGateway.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:APIGateway.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:APIGateway.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Start Up
+            </summary>
+            <param name="env">Host Environment</param>
+        </member>
+        <member name="P:APIGateway.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:APIGateway.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>
