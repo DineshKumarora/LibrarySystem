@@ -1,0 +1,12 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.csprojAssemblyReference.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.xml

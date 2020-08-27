@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AuthServer</name>
+    </assembly>
+    <members>
+        <member name="T:AuthServer.Controllers.AuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AuthServer.Controllers.AuthController.#ctor(Microsoft.Extensions.Options.IOptions{AuthServer.Controllers.Audience})">
+            <summary>
+            
+            </summary>
+            <param name="settings"></param>
+        </member>
+        <member name="M:AuthServer.Controllers.AuthController.Get(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AuthServer.Controllers.Audience">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AuthServer.Controllers.Audience.Secret">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AuthServer.Controllers.Audience.Iss">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AuthServer.Controllers.Audience.Aud">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:AuthServer.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AuthServer.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:AuthServer.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AuthServer.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AuthServer.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:AuthServer.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AuthServer.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AuthServer.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>
