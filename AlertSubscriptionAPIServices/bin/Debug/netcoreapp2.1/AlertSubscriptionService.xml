@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlertSubscriptionService</name>
+    </assembly>
+    <members>
+        <member name="T:AlertSubscriptionService.Controllers.AlertSubscriptionController">
+            <summary>
+            Alert Subscription Controller
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.Controllers.AlertSubscriptionController.AlertSubscription(AlertSubscriptionService.Models.Subscription)">
+            <summary>
+            Alert Subscription
+            </summary>
+            <param name="subscriber">Subscriber</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlertSubscriptionService.Controllers.AlertSubscriptionController.SendSubscription(System.String)">
+            <summary>
+            Send Subscription
+            </summary>
+            <param name="bookId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlertSubscriptionService.Controllers.AlertSubscriptionController.HealthCheck">
+            <summary>
+            Service Health Check
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlertSubscriptionService.Controllers.AlertSubscriptionController.Info">
+            <summary>
+            Service Info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AlertSubscriptionService.Models.Subscription">
+            <summary>
+            Alert Subscription
+            </summary>
+        </member>
+        <member name="P:AlertSubscriptionService.Models.Subscription.SubscriberName">
+            <summary>
+            Subscriber Name
+            </summary>
+        </member>
+        <member name="P:AlertSubscriptionService.Models.Subscription.BookId">
+            <summary>
+            Book Id
+            </summary>
+        </member>
+        <member name="P:AlertSubscriptionService.Models.Subscription.Email">
+            <summary>
+            Email Address
+            </summary>
+        </member>
+        <member name="T:AlertSubscriptionService.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:AlertSubscriptionService.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AlertSubscriptionService.RabbitMQ.ObjectSerialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.ObjectSerialize.Serialize(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.ObjectSerialize.DeSerialize(System.Byte[],System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="arrBytes"></param>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.ObjectSerialize.DeSerializeText(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="arrBytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AlertSubscriptionService.RabbitMQ.RabbitMQClient">
+            <summary>
+            Rabbit MQ Client
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.RabbitMQClient.#ctor(AlertSubscriptionService.Models.Subscription)">
+            <summary>
+            RabbitMQ Client
+            </summary>
+            <param name="subscriber"></param>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.RabbitMQClient.CreateConnection(AlertSubscriptionService.Models.Subscription)">
+            <summary>
+            Create Connection
+            </summary>
+            <param name="subscriber"></param>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.RabbitMQClient.Close">
+            <summary>
+            Close Connection
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.RabbitMQClient.AddAlert(AlertSubscriptionService.Models.Subscription)">
+            <summary>
+            Add Alert
+            </summary>
+            <param name="subscriber"></param>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.RabbitMQClient.SendAlert">
+            <summary>
+            Send Alert
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.RabbitMQ.RabbitMQClient.SendMessage(System.Byte[],System.String)">
+            <summary>
+            Send Message
+            </summary>
+            <param name="message">Message</param>
+            <param name="routingKey">routing key</param>
+        </member>
+        <member name="T:AlertSubscriptionService.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:AlertSubscriptionService.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AlertSubscriptionService.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AlertSubscriptionService.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
