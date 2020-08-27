@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BooksAPIServices</name>
+    </assembly>
+    <members>
+        <member name="T:BooksAPIServices.Controllers.BooksController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BooksAPIServices.Controllers.BooksController.#ctor(BooksAPIServices.Models.BooksContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:BooksAPIServices.Controllers.BooksController.GetBookList">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BooksAPIServices.Controllers.BooksController.GetBook(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BooksAPIServices.Controllers.BooksController.UpdateAvailability(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BooksAPIServices.Controllers.BooksController.HealthCheck">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BooksAPIServices.Controllers.BooksController.Info">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BooksAPIServices.Models.Books">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BooksAPIServices.Models.Books.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BooksAPIServices.Models.Books.bookName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BooksAPIServices.Models.Books.author">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BooksAPIServices.Models.Books.copiesAvailable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BooksAPIServices.Models.Books.totalCopies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BooksAPIServices.Models.BooksContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BooksAPIServices.Models.BooksContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{BooksAPIServices.Models.BooksContext})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="M:BooksAPIServices.Models.BooksContext.LoadBooks">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BooksAPIServices.Models.BooksContext.BookLists">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BooksAPIServices.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BooksAPIServices.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:BooksAPIServices.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BooksAPIServices.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BooksAPIServices.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:BooksAPIServices.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BooksAPIServices.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:BooksAPIServices.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
