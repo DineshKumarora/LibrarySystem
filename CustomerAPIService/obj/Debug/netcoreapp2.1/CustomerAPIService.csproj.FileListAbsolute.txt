@@ -1,0 +1,12 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\bin\Debug\netcoreapp2.1\CustomerAPIService.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\bin\Debug\netcoreapp2.1\CustomerAPIService.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\bin\Debug\netcoreapp2.1\CustomerAPIService.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\bin\Debug\netcoreapp2.1\CustomerAPIService.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\bin\Debug\netcoreapp2.1\CustomerAPIService.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\bin\Debug\netcoreapp2.1\CustomerAPIService.xml
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\obj\Debug\netcoreapp2.1\CustomerAPIService.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\obj\Debug\netcoreapp2.1\CustomerAPIService.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\obj\Debug\netcoreapp2.1\CustomerAPIService.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\obj\Debug\netcoreapp2.1\CustomerAPIService.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\obj\Debug\netcoreapp2.1\CustomerAPIService.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\CustomerAPIService\obj\Debug\netcoreapp2.1\CustomerAPIService.csprojAssemblyReference.cache
