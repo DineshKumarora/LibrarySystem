@@ -1,0 +1,11 @@
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\bin\Debug\netcoreapp2.1\ClientApp.deps.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\bin\Debug\netcoreapp2.1\ClientApp.runtimeconfig.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\bin\Debug\netcoreapp2.1\ClientApp.runtimeconfig.dev.json
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\bin\Debug\netcoreapp2.1\ClientApp.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\bin\Debug\netcoreapp2.1\ClientApp.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\obj\Debug\netcoreapp2.1\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\obj\Debug\netcoreapp2.1\ClientApp.AssemblyInfoInputs.cache
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\obj\Debug\netcoreapp2.1\ClientApp.AssemblyInfo.cs
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\obj\Debug\netcoreapp2.1\ClientApp.dll
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\obj\Debug\netcoreapp2.1\ClientApp.pdb
+C:\Users\e1072225\source\repos\LibrarySystemMSDemo-2.1\ClientApp\obj\Debug\netcoreapp2.1\ClientApp.csprojAssemblyReference.cache
